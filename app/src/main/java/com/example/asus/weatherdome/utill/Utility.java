@@ -1,4 +1,5 @@
 package com.example.asus.weatherdome.utill;
+
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
@@ -8,6 +9,7 @@ import com.example.asus.weatherdome.db.Province;
 import com.example.asus.weatherdome.gson.Aqi;
 import com.example.asus.weatherdome.gson.Weather;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
 import org.json.JSONException;
